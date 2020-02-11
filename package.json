@@ -17,5 +17,6 @@
   "dependencies": {
     "html2canvas": "^1.0.0-rc.5",
     "jspdf": "^1.5.3"
-  }
+  },
+  "homepage": "https://github.com/abhinavNehra/create-pdf"
 }
