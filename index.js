@@ -121,4 +121,6 @@ async function createPdf(id) {
      })
 }
 
-module.exports = createPdf
+module.exports = function(id) {
+    createPdf(id)
+}
