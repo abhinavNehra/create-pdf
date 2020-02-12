@@ -68,10 +68,8 @@ async function createPdf(id) {
     pdf.rect(0, 0, pdf.internal.pageSize.width, pdf.internal.pageSize.height, 'S');
   }
 
-  pdf.save(`check.pdf`, {
+  return pdf.save(`check.pdf`, {
     returnPromise: true
-  }).then(() => {
-    console.log('done');
   });
 }
 
