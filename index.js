@@ -122,5 +122,5 @@ async function createPdf(id) {
 }
 
 module.exports = function(id) {
-    createPdf(id)
+    return createPdf(id)
 }
