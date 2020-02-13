@@ -4,7 +4,7 @@ import html2canvas from 'html2canvas'
 
 // Function to create the pdf
 // accept id's in array
-export async function createPdf(id) {
+async function createPdf(id) {
     id = '#' + id
 
     let pdf = new jsPDF({
@@ -116,4 +116,8 @@ export async function createPdf(id) {
     }
 
     return pdf.save(`check.pdf`, { returnPromise: true })
+}
+
+export {
+    createPdf
 }
