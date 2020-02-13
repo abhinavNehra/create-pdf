@@ -4,8 +4,7 @@
   "description": "this module will create the pdf from id",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "./node_modules/.bin/babel src --out-file index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "create",
@@ -19,12 +18,5 @@
     "html2canvas": "1.0.0-rc.5",
     "jspdf": "1.5.3"
   },
-  "homepage": "https://github.com/abhinavNehra/create-pdf",
-  "devDependencies": {
-    "@babel/cli": "^7.8.3",
-    "@babel/core": "^7.8.3",
-    "@babel/plugin-proposal-class-properties": "^7.8.3",
-    "@babel/preset-env": "^7.8.3",
-    "@babel/preset-react": "^7.8.3"
-  }
+  "homepage": "https://github.com/abhinavNehra/create-pdf"
 }
