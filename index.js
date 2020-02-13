@@ -118,4 +118,4 @@ async function createPdf(id) {
     return pdf.save(`check.pdf`, { returnPromise: true })
 }
 
-exports.createPdf = createPdf
+export { createPdf }
