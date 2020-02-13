@@ -3,6 +3,8 @@
   "version": "1.0.11",
   "description": "this module will create the pdf from id",
   "main": "index.js",
+  "type": "module",
+  "module": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
