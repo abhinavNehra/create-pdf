@@ -1,6 +1,6 @@
 {
   "name": "create-pdf",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "this module will create the pdf from id",
   "main": "index.js",
   "scripts": {
